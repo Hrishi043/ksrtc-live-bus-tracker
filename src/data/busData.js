@@ -1,0 +1,162 @@
+import sfImg from "../assets/SF.png";
+import sf1Img from "../assets/SF1.png";
+import sf2Img from "../assets/sf2.png";
+
+export const busData = [
+  {
+    id: 1,
+    busNo: "KSRTC 345",
+    type: "Super Fast",
+    from: "Kochi",
+    to: "Thrissur",
+    stops: ["Kochi", "Aluva", "Angamaly", "Chalakudy", "Thrissur"],
+    currentIndex: 1,
+    ticketPrice: 145,
+    totalSeats: 45,
+    availableSeats: 18,
+    image: sfImg
+  },
+  {
+    id: 2,
+    busNo: "KSRTC 102",
+    type: "Fast Passenger",
+    from: "Kochi",
+    to: "Kottayam",
+    stops: ["Kochi", "Tripunithura", "Vaikom", "Kottayam"],
+    currentIndex: 0,
+    ticketPrice: 120,
+    totalSeats: 40,
+    availableSeats: 22,
+    image: sf1Img
+  },
+  {
+    id: 3,
+    busNo: "KSRTC 777",
+    type: "Ordinary",
+    from: "Kochi",
+    to: "Thrissur",
+    stops: ["Kochi", "Aluva", "Angamaly", "Thrissur"],
+    currentIndex: 2,
+    ticketPrice: 95,
+    totalSeats: 50,
+    availableSeats: 30,
+    image: sf2Img
+  },
+  {
+    id: 4,
+    busNo: "KSRTC 521",
+    type: "Super Fast",
+    from: "Ernakulam",
+    to: "Palakkad",
+    stops: ["Ernakulam", "Aluva", "Thrissur", "Wadakkanchery", "Palakkad"],
+    currentIndex: 3,
+    ticketPrice: 180,
+    totalSeats: 45,
+    availableSeats: 12,
+    image: sfImg
+  },
+  {
+    id: 5,
+    busNo: "KSRTC 888",
+    type: "Fast Passenger",
+    from: "Thrissur",
+    to: "Kozhikode",
+    stops: ["Thrissur", "Kunnamkulam", "Edappal", "Tirur", "Kozhikode"],
+    currentIndex: 1,
+    ticketPrice: 210,
+    totalSeats: 42,
+    availableSeats: 20,
+    image: sf1Img
+  },
+  {
+    id: 6,
+    busNo: "KSRTC 409",
+    type: "Ordinary",
+    from: "Alappuzha",
+    to: "Ernakulam",
+    stops: ["Alappuzha", "Cherthala", "Aroor", "Ernakulam"],
+    currentIndex: 0,
+    ticketPrice: 85,
+    totalSeats: 50,
+    availableSeats: 35,
+    image: sf2Img
+  },
+  {
+    id: 7,
+    busNo: "KSRTC 601",
+    type: "Super Fast",
+    from: "Kottayam",
+    to: "Trivandrum",
+    stops: ["Kottayam", "Changanassery", "Thiruvalla", "Kollam", "Trivandrum"],
+    currentIndex: 2,
+    ticketPrice: 260,
+    totalSeats: 45,
+    availableSeats: 14,
+    image: sfImg
+  },
+  {
+    id: 8,
+    busNo: "KSRTC 333",
+    type: "Fast Passenger",
+    from: "Kollam",
+    to: "Thrissur",
+    stops: ["Kollam", "Kayamkulam", "Alappuzha", "Ernakulam", "Thrissur"],
+    currentIndex: 4,
+    ticketPrice: 240,
+    totalSeats: 42,
+    availableSeats: 5,
+    image: sf1Img
+  },
+  {
+    id: 9,
+    busNo: "KSRTC 119",
+    type: "Ordinary",
+    from: "Malappuram",
+    to: "Kozhikode",
+    stops: ["Malappuram", "Manjeri", "Areekode", "Kozhikode"],
+    currentIndex: 1,
+    ticketPrice: 70,
+    totalSeats: 50,
+    availableSeats: 28,
+    image: sf2Img
+  },
+  {
+    id: 13,
+    busNo: "KSRTC 610",
+    type: "Super Fast",
+    from: "Kothamangalam",
+    to: "Thrissur",
+    stops: ["Kothamangalam", "Perumbavoor", "Angamaly", "Chalakudy", "Thrissur"],
+    currentIndex: 2,
+    ticketPrice: 130,
+    totalSeats: 45,
+    availableSeats: 19,
+    image: sfImg
+  },
+  {
+    id: 14,
+    busNo: "KSRTC 611",
+    type: "Fast Passenger",
+    from: "Kothamangalam",
+    to: "Thrissur",
+    stops: ["Kothamangalam", "Perumbavoor", "Aluva", "Angamaly", "Thrissur"],
+    currentIndex: 1,
+    ticketPrice: 120,
+    totalSeats: 42,
+    availableSeats: 24,
+    image: sf1Img
+  },
+  {
+    id: 15,
+    busNo: "KSRTC 612",
+    type: "Ordinary",
+    from: "Kothamangalam",
+    to: "Thrissur",
+    stops: ["Kothamangalam", "Perumbavoor", "Angamaly", "Kodungallur", "Thrissur"],
+    currentIndex: 0,
+    ticketPrice: 105,
+    totalSeats: 50,
+    availableSeats: 37,
+    image: sf2Img
+  }
+];
